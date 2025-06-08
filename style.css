@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0px auto;
+}
+
+.boxBtns {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.btnsYes {
+    min-width:  200px;
+    background-color: rgb(104, 221, 153);
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btnsNo{
+    min-width:  200px;
+    background-color: rgb(243, 41, 165);
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: bold;
+}
